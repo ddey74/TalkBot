@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alarm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:hint="Enter Hours Here"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="Enter Minutes Here"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Set Alarm"
+        android:id="@+id/bt1"
+        android:onClick="go1"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

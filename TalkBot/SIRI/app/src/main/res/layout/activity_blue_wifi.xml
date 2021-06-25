@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blue_wifi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.debo.siri.BlueWifi">
+
+<ToggleButton
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="WIFI"
+    android:id="@+id/tg1" />
+
+
+ <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="BLUETOOTH"
+        android:id="@+id/tg2"/>
+
+</LinearLayout>
